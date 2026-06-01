@@ -1,64 +1,97 @@
-Integrantes da Equipe
+# FocaAi
+ Laura chagas faria
+ ### Sistema
+ <img width="2378" height="656" alt="FocaAí (2)" src="https://github.com/user-attachments/assets/b2232bb4-01b0-432b-9e41-4a15e04e1362" />
 
-- Laura chagas faria
+Descrição do Projeto
 
-### Conceito de Design
+O FocaAí é um aplicativo desenvolvido para auxiliar estudantes e profissionais a manterem a concentração durante períodos de estudo ou trabalho. O sistema utiliza técnicas de gamificação e foco consciente para incentivar o usuário a permanecer longe de distrações digitais.
 
-O FocaAí foi projetado com base nos princípios de Calm Technology, priorizando uma experiência tranquila e sem excesso de estímulos visuais. A interface utiliza espaços em branco, poucos elementos na tela e cores suaves para transmitir sensação de calma e concentração.
+O principal diferencial do aplicativo é transformar o tempo de foco em uma experiência positiva, mostrando o crescimento de uma árvore virtual e destacando o tempo conquistado para atividades produtivas.
 
-Em vez de pressionar o usuário com notificações constantes ou métricas negativas, o aplicativo valoriza conquistas positivas, mostrando o tempo ganho para atividades da vida real. Dessa forma, o usuário percebe seu progresso sem gerar ansiedade ou sentimento de culpa.
+---
 
-A árvore virtual funciona como um incentivo visual discreto, simbolizando crescimento e consistência durante os períodos de foco.
+Conceito de Design
 
-Fluxo de Usuário
+O projeto foi desenvolvido com base nos princípios de Calm Technology, buscando reduzir a ansiedade e a sobrecarga de informações.
 
-1. O usuário acessa a tela inicial (Dashboard).
-2. Define o tempo de foco desejado.
-3. Escolhe sons de ambiente para auxiliar a concentração.
-4. Seleciona os aplicativos que serão bloqueados durante a sessão.
-5. Entra em uma sala de foco individual ou em grupo.
-6. Inicia o cronômetro Pomodoro.
-7. Durante a sessão, a árvore virtual cresce gradualmente.
-8. Ao finalizar o período, o usuário recebe um resumo de suas conquistas e do tempo ganho.
+Para isso, foram adotadas as seguintes estratégias:
+
+- Interface minimalista.
+- Grande utilização de espaço em branco.
+- Poucos elementos visuais por tela.
+- Cronômetro destacado como elemento principal.
+- Feedback visual suave através do crescimento da árvore.
+- Estatísticas apresentadas de forma simples e objetiva.
+
+O aplicativo incentiva o usuário a se desconectar do celular e voltar sua atenção para atividades do mundo real.
+
+---
+
+Fluxo do Usuário
+
+1. Tela Inicial
+
+O usuário visualiza sua árvore virtual e inicia uma nova sessão de foco.
+
+2. Configuração da Sessão
+
+Define a duração do período de concentração através de controles simples.
+
+3. Sessão de Foco
+
+O cronômetro é exibido como elemento central da tela enquanto a árvore cresce progressivamente.
+
+4. Conclusão da Sessão
+
+Ao finalizar o tempo, o usuário recebe uma mensagem positiva e visualiza o desenvolvimento da árvore.
+
+5. Estatísticas
+
+O aplicativo apresenta o tempo ganho para atividades produtivas e o histórico de evolução.
+
+6. Ranking em Grupo
+
+Os participantes podem acompanhar o desempenho coletivo das sessões de foco.
+
+7. Gerenciamento de Amigos
+
+Permite adicionar novos participantes para criar grupos de foco colaborativo.
+
+---
 
 Escolha dos Componentes
 
-Slider para Tempo de Foco
+Cronômetro Central
 
-Foi utilizado um slider para facilitar ajustes rápidos de duração, reduzindo o esforço de digitação e tornando a configuração mais intuitiva.
+Foi utilizado para manter o foco do usuário em apenas uma informação principal: o tempo restante.
 
-Interruptores (On/Off)
+Representação da Árvore
 
-Os aplicativos bloqueados são selecionados por meio de interruptores, pois permitem ativação rápida e fácil compreensão visual.
+A árvore simboliza crescimento e progresso, oferecendo motivação visual sem gerar pressão.
 
-Cartões Simples
+Gráficos Simples
 
-As informações são organizadas em cartões minimalistas para evitar sobrecarga cognitiva.
+Facilitam a compreensão do desempenho sem excesso de dados.
 
-Barra de Progresso da Árvore
+Ranking
 
-O crescimento da árvore representa visualmente o progresso da sessão sem distrair o usuário com números excessivos.
+Estimula a participação em grupo de forma saudável e colaborativa.
 
-Como o Design Reduz a Ansiedade
+Botões Minimalistas
 
-- Poucas informações exibidas simultaneamente.
-- Ausência de notificações agressivas.
-- Feedback visual suave e positivo.
-- Foco em conquistas e não em falhas.
-- Uso de espaço negativo para transmitir tranquilidade.
-- Estatísticas baseadas em "tempo ganho" em vez de "tempo perdido".
+Reduzem distrações e tornam a navegação mais intuitiva.
 
-Acessibilidade para Usuários com TDAH
+---
 
-- Interface limpa e organizada.
-- Hierarquia visual clara.
-- Elementos principais destacados.
-- Redução de distrações visuais.
-- Objetivos simples e bem definidos durante cada sessão de foco.
+Como o Projeto Reduz a Ansiedade
+
+Ao contrário de aplicativos que utilizam notificações constantes e métricas negativas, o FocaAí valoriza conquistas positivas.
+
+O sistema mostra quanto tempo foi ganho para atividades importantes, evitando focar em tempo perdido. Além disso, a utilização de espaço negativo, telas limpas e feedbacks discretos contribui para uma experiência mais tranquila e confortável.
+
+---
 
 Reflexão de UX
 
-O FocaAí comunica que está tudo bem se desconectar ao mostrar que o verdadeiro objetivo não é permanecer dentro do aplicativo, mas dedicar atenção ao estudo, trabalho e atividades do mundo real. O aplicativo atua como um apoio silencioso, incentivando hábitos saudáveis sem competir pela atenção do usuário.
-
- ### Sistema
- <img width="2378" height="656" alt="FocaAí (2)" src="https://github.com/user-attachments/assets/b2232bb4-01b0-432b-9e41-4a15e04e1362" />
+O FocaAí transmite a mensagem de que a tecnologia deve ajudar as pessoas a se concentrarem em suas metas e não disputar sua atenção. O sucesso do aplicativo acontece justamente quando o usuário deixa de olhar para a tela e passa a dedicar seu tempo ao estudo, trabalho e desenvolvimento pessoal.
